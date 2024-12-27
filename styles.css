@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    margin-bottom: 60px; /* Added to prevent content from being hidden by footer */
 }
 
 /* Header styles */
@@ -31,6 +32,23 @@ section {
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact section styles */
+.contact ul {
+    border-left: 3px solid #333;
+    padding-left: 1rem;
 }
 
 /* Footer styles */
